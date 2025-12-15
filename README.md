@@ -162,3 +162,32 @@ npm install
 # Create a .env file inside the frontend folder:
 REACT_APP_BACKEND_BASE_URL=http://localhost:3003
 Start frontend:npm start
+
+
+## Assumptions
+
+- Authentication is optional and not implemented
+- CV input is primarily PDF
+- LLM output is trusted but minimally validated
+- UI focus is functionality over visual complexity
+
+---
+
+## Possible Improvements
+
+- Better LLM error handling
+- Editable personas
+- Authentication and user ownership
+- Improved UI/UX
+- Rate limiting and caching for LLM calls
+
+---
+
+## Submission Checklist
+
+- Public GitHub repository
+- Frontend and backend code
+- README with setup instructions
+- API endpoints implemented
+- Database integration
+- LLM integration
